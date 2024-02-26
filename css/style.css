@@ -8,8 +8,10 @@ body {
   background-size: cover;
 }
 .fondo {
-  background-image: url(../images/fondo\ 2.jpg);
-  background-size: cover;
+
+
+
+  background-image: linear-gradient(320deg, #d3ffff 0, #9db9f2 50%, #687288 100%);
   position: absolute;
   width: 70%;
   top: 50%;
@@ -31,12 +33,26 @@ body {
   align-items: center;
   justify-content: center;
 }
+.description {
+  margin: 10px;
+  text-align: center;
+}
 .nombre {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-font-size: xx-large;
+  font-size: xx-large;
 }
-.pollito{
-    text-align: center;
-    font-size: 20px;
-    margin: 10px;
+.pollito {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+}
+.datos h2 {
+  text-align: center;
+}
+
+.titulo {
+  color: rgb(211, 84, 0);
+}
+.datos hr{
+  margin: 15px;
 }
